@@ -1,0 +1,454 @@
+body {
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navtext {
+    color: white;
+}
+
+.home {
+    position: relative;
+    min-height: 800px;
+}
+
+.homeimage {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+
+.imagetitle {
+    color: #CDBE78;
+    position: absolute;
+    font-size: 70px;
+    width: 70%;
+    bottom: 0;
+    left: 20px;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+
+.middle {
+    font-weight: 100;
+}
+
+.menu {
+    position: relative;
+}
+
+.menuicon {
+
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+
+
+}
+
+.homedown {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homebuttoncontainer {
+    display: flex;
+    gap: 20px;
+}
+
+.homebutton {
+    background-color: #CDBE78;
+    min-height: 46px;
+    min-width: 231px;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homesecond {
+    color: #CDBE78;
+}
+
+.homesecondtitle {
+
+    text-transform: uppercase
+}
+
+.socialcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hr {
+    border-color: white;
+    border: solid 1px #C8C8C8;
+    width: 100%;
+}
+
+.welcome {
+    min-height: 300px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.welcometitle {
+    color: #CDBE78;
+    text-transform: uppercase;
+    font-size: 46px;
+}
+
+.welcometext {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.welcomepara {
+    font-size: 18px;
+    color: white;
+}
+
+.welcomeimage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.welcbuttons {
+    display: flex;
+    gap: 20px;
+}
+
+.welcomebutton {
+    min-width: 269px;
+    min-height: 46px;
+    background-color: #CDBE78;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.unlock {
+    color: white;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.unlocklogos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.unlocktitle {
+    align-self: flex-end;
+    font-size: 41px;
+    color: #CDBE78;
+    margin-right: 20px;
+}
+
+.unlocklogosone {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+
+.unlocklogostwo {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.unlockpara {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.logocontunlock {
+    background-color: white;
+    min-width: 233px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 91px;
+    border-radius: 5px;
+}
+
+.unlockbg {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imgcontainer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.omarimg {
+    width: 361px;
+    bottom: 0;
+
+}
+
+.imgrightcontainer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.chairmanlogo {
+    background-color: white;
+    min-width: 189px;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.omartext {
+    position: absolute;
+    top: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+.unlockline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.enquiry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enquirytitle {
+    font-size: 46px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.enquirybuttoncontainer {
+    display: flex;
+    gap: 20px;
+}
+
+.enquirybutton {
+    min-width: 239px;
+    min-height: 46px;
+    font-size: 18px;
+    background-color: #CDBE78;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.integrity {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.integritytitle {
+    font-size: 46px;
+    color: #CDBE78;
+}
+
+.integrityboxcontainerone {
+    display: flex;
+    gap: 20px;
+    width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(49, 46%, 64%, 1) 100%);
+
+
+
+
+
+}
+
+.integrityboxcontainertwo {
+    display: flex;
+    color: white;
+    gap: 20px;
+    align-self: flex-end;
+    width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    background: hsla(216, 18%, 16%, 1);
+
+    background: linear-gradient(90deg, hsla(216, 18%, 16%, 1) 0%, hsla(210, 32%, 28%, 1) 100%);
+
+
+}
+
+.integrityboxcontainerthree {
+    color: white;
+    display: flex;
+    gap: 20px;
+    background-color: #CDBE78;
+    width: 75%;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: flex-end;
+    background: hsla(49, 46%, 64%, 1);
+
+    background: linear-gradient(90deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 12%, 1) 100%);
+
+
+}
+
+
+
+.integritybox {
+    height: 189px;
+    width: 189px;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.integrityboxtwo {
+    height: 189px;
+    width: 189px;
+    border-radius: 10px;
+    background-color: #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(49, 46%, 64%, 1);
+
+background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+    
+
+}
+
+.integrityboxfour{
+    color: white;
+    height: 189px;
+    width: 189px;
+    border-radius: 10px;
+    background-color: #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(210, 32%, 28%, 1);
+
+    background: linear-gradient(180deg, hsla(210, 32%, 28%, 1) 0%, hsla(216, 18%, 16%, 1) 100%);
+    
+
+}
+
+
+
+.integrityboxthree{
+    color: white;
+    height: 189px;
+    width: 189px;
+    border-radius: 10px;
+    background-color: #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    background: hsla(49, 46%, 64%, 1);
+
+    background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(49, 26%, 32%, 1) 100%);
+    
+
+}
+.integrityboxtwotitle{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.integrityboxtwocompany {
+    font-weight: bold;
+}
+.integrityboxone {
+    min-width: 350px;
+    flex: 1;
+    font-size: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.integrityp {
+    font-weight: 100;
+}
+
+.welltyp {
+    font-weight: 100;
+    font-weight: 700;
+}
+
+.viewall {
+    color: #CDBE78;
+    align-self: flex-end;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
