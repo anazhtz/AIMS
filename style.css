@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     background-color: black;
     padding-left: 20px;
@@ -18,20 +21,60 @@ body {
 
 .navtext {
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 .home {
     position: relative;
     min-height: 800px;
-}
-
-.homeimage {
     width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
 }
 
+
+.experience {
+    display: flex;
+    border: 1px solid;
+    border-radius: 20px;
+    min-height: 900px;
+    background-size: cover;
+    width: 100%;
+    clip-path: polygon(10% 0, 75% 0, 85% 10%, 100% 10%, 100% 80%, 90% 100%, 0 100%, 0 20%);
+    background-image:
+        linear-gradient(270deg,
+            rgba(0, 0, 0, 0.1) 0%,
+            rgba(0, 0, 0, 0.9) 100%),
+        url('./assets/new/homebg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.homemenu {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #CDBE78;
+    clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.exp {
+    position: relative;
+    min-height: 600px;
+}
+
+.homeicon {
+    position: absolute;
+    bottom: 55%;
+    left: 20%;
+}
 
 .imagetitle {
     color: #CDBE78;
@@ -47,6 +90,17 @@ body {
 
 .middle {
     font-weight: 100;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    font-size: 57.74px;
+}
+
+.asset {
+    font-weight: 100;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 57.74px;
+
 }
 
 .menu {
@@ -66,6 +120,7 @@ body {
 .homedown {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .homebuttoncontainer {
@@ -81,6 +136,9 @@ body {
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+
 }
 
 .homesecond {
@@ -89,7 +147,10 @@ body {
 
 .homesecondtitle {
 
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 23.39px;
 }
 
 .socialcontainer {
@@ -97,6 +158,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
 }
+
 
 .hr {
     border-color: white;
@@ -114,6 +176,8 @@ body {
     color: #CDBE78;
     text-transform: uppercase;
     font-size: 46px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
 }
 
 .welcometext {
@@ -121,6 +185,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18.6px;
+
 
 }
 
@@ -151,6 +219,9 @@ body {
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: "Inter", sans-serif;
+
+
 }
 
 .unlock {
@@ -172,9 +243,13 @@ body {
 
 .unlocktitle {
     align-self: flex-end;
-    font-size: 41px;
+    font-size: 41.8px;
     color: #CDBE78;
     margin-right: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+
 }
 
 .unlocklogosone {
@@ -196,10 +271,13 @@ body {
     text-transform: uppercase;
     padding-left: 100px;
     padding-right: 100px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
 }
 
 
 .logocontunlock {
+    z-index: 1;
     background-color: white;
     min-width: 233px;
     display: flex;
@@ -227,6 +305,7 @@ body {
 .omarimg {
     width: 361px;
     bottom: 0;
+    z-index: 3;
 
 }
 
@@ -246,6 +325,30 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    z-index: 1;
+}
+
+.omarpara {
+    z-index: 2;
+}
+
+.omartitle {
+    font-family: "Inter", sans-serif;
+    font-size: 32.23px;
+    font-weight: 600;
+
+
+}
+
+.omarbody {
+    font-family: "Inter", sans-serif;
+    font-size: 19.57px;
+    font-weight: 300;
+
+}
+
+.omarlogomain {
+    z-index: 1;
 }
 
 .omartext {
@@ -257,6 +360,7 @@ body {
     height: 100%;
     padding-left: 10%;
     padding-right: 10%;
+    z-index: 2;
 
 
 }
@@ -265,6 +369,10 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.unlocklineimage {
+    width: 100%;
 }
 
 .enquiry {
@@ -277,6 +385,9 @@ body {
     font-size: 46px;
     color: white;
     text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+
 }
 
 .enquirybuttoncontainer {
@@ -293,6 +404,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -307,6 +419,9 @@ body {
 .integritytitle {
     font-size: 46px;
     color: #CDBE78;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
 }
 
 .integrityboxcontainerone {
@@ -364,8 +479,9 @@ body {
     width: 189px;
     background-color: black;
     border-radius: 10px;
-    
+
 }
+
 .integrityboxtwo {
     height: 189px;
     width: 189px;
@@ -378,12 +494,12 @@ body {
     align-items: center;
     background: hsla(49, 46%, 64%, 1);
 
-background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
-    
+    background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
 
 }
 
-.integrityboxfour{
+.integrityboxfour {
     color: white;
     height: 189px;
     width: 189px;
@@ -397,13 +513,13 @@ background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 
     background: hsla(210, 32%, 28%, 1);
 
     background: linear-gradient(180deg, hsla(210, 32%, 28%, 1) 0%, hsla(216, 18%, 16%, 1) 100%);
-    
+
 
 }
 
 
 
-.integrityboxthree{
+.integrityboxthree {
     color: white;
     height: 189px;
     width: 189px;
@@ -417,17 +533,31 @@ background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 
     background: hsla(49, 46%, 64%, 1);
 
     background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(49, 26%, 32%, 1) 100%);
-    
+
 
 }
-.integrityboxtwotitle{
-    font-size: 18px;
+
+.integrityboxtwotitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 17.37px;
     font-weight: 700;
+
+}
+
+.integrityboxtwobody {
+    font-family: "Roboto", sans-serif;
+    font-size: 11.55px;
+    font-weight: 400;
+
 }
 
 .integrityboxtwocompany {
-    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 11.17px;
+    font-weight: 500;
+
 }
+
 .integrityboxone {
     min-width: 350px;
     flex: 1;
@@ -437,12 +567,18 @@ background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 
 }
 
 .integrityp {
-    font-weight: 100;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+
+
 }
 
 .welltyp {
-    font-weight: 100;
     font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+
 }
 
 .viewall {
@@ -451,4 +587,228 @@ background: linear-gradient(180deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 100%, 
     display: flex;
     gap: 10px;
     cursor: pointer;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+/*************************** factory ********************************/
+
+.factory {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.factoryimgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 30px
+}
+
+.factorytitlecont {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.factorytitle {
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: black;
+    align-self: flex-end;
+}
+
+.factory-bg {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(5% 0, 100% 0, 100% 85%, 96% 100%, 0 100%, 0 20%);
+    background: hsla(0, 0%, 98%, 1);
+    background: linear-gradient(180deg, hsla(0, 0%, 98%, 1) 0%, hsla(49, 46%, 64%, 1) 100%);
+    border-radius: 12px;
+
+}
+
+
+
+.factoryimg {
+    width: 253px;
+    height: 241px;
+    clip-path: polygon(75% 0, 100% 25%, 100% 100%, 0 100%, 0 0);
+    border-radius: 10px;
+
+
+}
+
+.factoryspan {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20.96px;
+}
+
+.factoryspantwo {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 20.96px;
+}
+
+.factorybutton {
+    width: 231px;
+    height: 46px;
+    border-radius: 5px;
+    background-color: #CDBE78;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* partners */
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.partnerssection {
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: hsla(49, 46%, 64%, 1);
+    background: linear-gradient(90deg, hsla(49, 46%, 64%, 1) 0%, hsla(0, 0%, 0%, 1) 65%);
+    border-radius: 19px;
+}
+
+.partnershead {
+    font-family: "Roboto", sans-serif;
+    font-size: 59.76px;
+    line-height: 51.71px;
+    font-weight: 600;
+    text-align: center;
+    color: #CDBE78;
+
+}
+
+.partnersheadp {
+    font-family: "Roboto", sans-serif;
+    font-size: 37.18x;
+    line-height: 51.71px;
+    font-weight: 300;
+    color: white;
+
+}
+
+.partnershr {
+    border-color: #C8C8C8;
+}
+
+.partnersp {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #CDBE78;
+
+}
+
+.partnerspspan {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #CDBE78;
+}
+
+
+.partnerscontmain {
+    display: flex;
+    gap: 30px;
+}
+
+.partnerimgcont {
+    width: 149.79px;
+    height: 85.59px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.partnersexhibit {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* enquiry buttons */
+
+
+.enquirybuttoncontainertwo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* future */
+
+.futuresection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.futurecontainer{
+
+}
+
+.futuretitle{
+    font-family: "Inter", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    color:#CDBE78;
+
+}
+.futureimgcontainermain{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+}
+
+.futureimg{
+    width: 255px;
+    height: 189px;
+}
+
+
+.futureimgcent{
+    width: 372px;
+    height: 275px;
+}
+
+.futureplay{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.futureimgplay{
+    position: relative;
 }
